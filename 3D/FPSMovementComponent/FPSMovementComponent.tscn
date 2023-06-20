@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dd4o61y301mjj"]
+
+[ext_resource type="Script" path="res://player/components/FPSMovementComponent/FPSMovementComponent.gd" id="1_rmmdj"]
+
+[node name="FPSMovementComponent" type="Node3D"]
+script = ExtResource("1_rmmdj")

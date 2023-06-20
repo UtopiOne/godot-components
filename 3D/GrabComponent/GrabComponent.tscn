@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnl6hshgqljji"]
+
+[ext_resource type="Script" path="res://player/components/GrabComponent/GrabComponent.gd" id="1_2atlq"]
+
+[node name="GrabComponent" type="Node3D"]
+script = ExtResource("1_2atlq")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
